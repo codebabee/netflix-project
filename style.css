@@ -1,0 +1,247 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(35, 35, 35);
+  overflow-x: hidden;
+}
+/* main {
+  display: flex;
+  flex-wrap: wrap;
+} */
+#first-container {
+  width: 100%;
+  
+  background-image:  url("./images/bg.jpg");
+  background-color: linear-gradient(180deg, white, black);
+  color: white;
+  height: 800px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+#sign-in {
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100px;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+}
+#firstpara {
+  font-size: 30px;
+  margin-top: 20px; 
+}
+#secondpara {
+  font-size: 25px;
+  margin-top: 20px;
+}
+input[type="email"] {
+  width: 40em;
+  height: 50px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+.get-started {
+  padding: 20px;
+  width: 15em;
+  height: 72px;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+}
+#child-first {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  margin-top: 12%;
+}
+#first-container section {
+  display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+h2 {
+  font-size: 45px;
+  color: white;
+  
+}
+.para-box {
+  width: 30rem;
+  color: white;
+  margin: auto;
+}
+#thirdpara {
+  font-size: 27px;
+  margin-top: 20px;
+}
+#fourthpara {
+  font-size: 27px;
+  margin-top: 20px;
+  color: white;
+}
+#fifthpara {
+  font-size: 27px;
+  margin-top: 20px;
+  color: white;
+}
+#sixthpara {
+  font-size: 27px;
+  margin-top: 20px;
+  color: white;
+}
+#seventhpara {
+  font-size: 20px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+#second-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
+  width: 100%;
+  background-color: black;
+  margin-top: 12px;
+ 
+}
+#seventh-container {
+  width: 100%;
+  background-color: black;
+  margin-top: 12px;
+  color: white;
+  opacity: 0.5;
+  height: 400px;
+}
+#sixth-container {
+  width: 100%;
+  background-color: black;
+  height: 800px;
+  margin-top: 12px;
+  color: white;
+  height: 150%;
+  padding: 30px;
+}
+#sixth-container button{
+  width: 22.05em;
+  height: 90px;
+  /* border-radius: 5px; */
+  background-color: rgb(63, 63, 63);
+  color: white;
+  margin-top: 15px;
+  text-align: left;
+  padding: 30px;
+  font-size: 30px;;
+}
+#sixth-container div{
+  width: 20.7em;
+  /* height: 70px; */
+  /* border-radius: 5px; */
+  background-color: rgb(63, 63, 63);
+  color: white;
+  margin-top: 3px;
+  text-align: left;
+  padding: 40px;
+  font-size: 28px;
+}
+#sixth-container section {
+  width: 40%;
+  margin: auto;
+}
+#seventh-container a {
+ text-decoration: none;
+ color: white;
+ opacity: 0.5;
+ font-size: 17px;
+}
+ul {
+  list-style-type: none;
+}
+#seventh-container a:hover {
+  text-decoration: underline
+}
+#seventh-container section{
+  display: grid;
+  grid-template-areas: 'one two three four';
+  gap: 20px;
+  width: 70%;
+  background-color: black;
+  margin-top: 50px;
+  margin: auto;
+}
+#seventh-container :first-child div{
+  margin-top: 50px;
+}
+#fourth-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
+  width: 100%;
+  background-color: black;
+  margin-top: 12px;
+  padding: 70px;
+}
+#child-fourth {
+  width: 30rem;
+  color: white;
+  /* margin: auto; */
+}
+#second-container section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: black;
+  margin-top: 12px;
+  margin: auto;
+}
+#third-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
+  width: 100%;
+  background-color: black;
+  margin-top: 12px;
+}
+#third-container section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: black;
+  margin-top: 20px;
+  margin: auto;
+}
+#fifth-container {
+  /* display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; */
+  width: 100%;
+  background-color: black;
+  margin-top: 12px;
+}
+#fifth-container section{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: black;
+  margin-top: 20px;
+  margin: auto;
+}
+.spacing {
+  gap: 15px;
+}
+img[alt="tv stand"] {
+  width: 400px;
+  height: 400px;
+  margin-right: 150px;
+}
