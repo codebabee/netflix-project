@@ -124,13 +124,13 @@ h2 {
 #sixth-container {
   width: 100%;
   background-color: black;
-  height: 800px;
+  height: 1200px;
   margin-top: 12px;
   color: white;
   height: 150%;
-  padding: 30px;
+  padding: 50px;
 }
-#sixth-container button{
+#sixth-container section button{
   width: 22.05em;
   height: 90px;
   /* border-radius: 5px; */
@@ -141,7 +141,7 @@ h2 {
   padding: 30px;
   font-size: 30px;;
 }
-#sixth-container div{
+#sixth-container section div{
   width: 20.7em;
   /* height: 70px; */
   /* border-radius: 5px; */
